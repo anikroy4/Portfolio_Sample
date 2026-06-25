@@ -32,3 +32,13 @@
 
         // Instructs browser window to run the loop precisely every 1000ms
         setInterval(startAutoClock, 1000);
+
+        $('.sliders').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
+            nextArrow: '<button type="button" class="slick-next">&#10095;</button>'
+            });

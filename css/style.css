@@ -307,4 +307,58 @@ ul, ol {
     border-radius: 5px;
     overflow: hidden;
   }
+  #bannerPart{
+    background: linear-gradient(90deg, #152331 0%, #000000 100%);
+    color: #cdc5c5;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .sliderOne{
+    background: url('../images/banner1.jpg');
+    margin: 20px;
+    padding: 300px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .two{
+    background: url('../images/banner2.jpg');
+    margin: 20px;
+    padding: 300px 0;
+    background-size: cover;
+    background-position: center;
+  }
+  .three{
+    background: url('../images/banner3.jpg');
+    margin: 20px;
+    padding: 300px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   
+  .slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    background:transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .slick-next{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    background: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 1;
+  }
