@@ -317,7 +317,7 @@ ul, ol {
   .sliderOne{
     background: url('../images/banner1.jpg');
     margin: 20px;
-    padding: 300px 0;
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -325,14 +325,14 @@ ul, ol {
   .two{
     background: url('../images/banner2.jpg');
     margin: 20px;
-    padding: 300px 0;
+   
     background-size: cover;
     background-position: center;
   }
   .three{
     background: url('../images/banner3.jpg');
     margin: 20px;
-    padding: 300px 0;
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -361,4 +361,29 @@ ul, ol {
     padding: 10px 15px;
     cursor: pointer;
     z-index: 1;
+  }
+  #bannerPart .overlay{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    padding: 300px 0;
+  }
+
+  #bannerPart .overlay h3{
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  #bannerPart .overlay h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  #bannerPart .overlay p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
   }
